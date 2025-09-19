@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const Home = () => {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row g-2">
         <div className="col-12">
           <h1 className="text-center my-3">Welcome to BooleWood</h1>
         </div>
