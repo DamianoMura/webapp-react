@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.image-frame{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.image-frame img{
+  width:200px;
+  height:400px;
+  object-fit: contain;
+  
+}
+
+.card-body{
+  position: relative;
+}
+
+.card-body:hover .hovered{
+  display: flex;
+}
+
+.hovered{
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, 0.791);
+  width: 100%;
+  height: 100%;
+  display:none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  object-fit: contain;
+}
